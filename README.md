@@ -1,4 +1,4 @@
-###﻿MapleApi.py 정리
+###﻿h2 MapleApi.py 정리
 
 charName = 캐릭터 이름
 ocid = 캐릭터 식별자 (ocid)
