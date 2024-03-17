@@ -1,0 +1,265 @@
+.q-page {
+    #background-img {
+        position: absolute;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 30%, #ffffff 90%), url('../unit/img/Main_back_img.png');
+        height: 50vh;
+        user-zoom: none;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+        z-index: -1;
+    }
+    #top-container {
+        position: absolute;
+        overflow: hidden auto;
+        width: 100%;
+        height: 40%;
+    }
+
+    #main-container {
+        position: absolute;
+        width: 1000px;
+        height: 75%;
+        top: 30%;
+        background: rgba(213, 213, 213, 1);
+        border: 5px solid #ffffff;
+        border-radius: 50px 50px 0px 0px;
+    }
+
+    #search-box {
+        box-sizing: border-box;
+        position: relative;
+        width: 430px;
+        height: 56px;
+        bottom: -25%;
+        background: #888888;
+        border: 5px solid #ffffff;
+        border-radius: 28px;
+        z-index: 1;
+        display: flex;
+    }
+
+    #search-text {
+        position: absolute;
+        width: 75%;
+        height: 90%;
+        font-family: 'MaplestoryOTFLight';
+        font-size: 1.2em;
+        letter-spacing: 1px;
+        background: transparent;
+        border: none;
+        outline: none;
+        color: rgba(252, 252, 252, 0.7);
+    }
+    #search-text::placeholder {
+        color: #ffffff;
+    }
+
+    #search-btn {
+        position: absolute;
+        width: 19px;
+        height: 19px;
+        left: 15px;
+        cursor: pointer;
+        background-size: cover;
+        border: none;
+        background: url('../unit/icon/search.svg');
+    }
+}
+
+.event-section {
+    position: relative;
+    width: 460px;
+    height: 340px;
+    float: left;
+    margin-top: 60px;
+    margin-left: 24px;
+    background: #ffffff;
+    border-radius: 20px;
+
+    .info {
+        position: absolute;
+        left: 4.54%;
+        right: 59.83%;
+        top: 7%;
+        font-family: 'MaplestoryOTFBold';
+        font-size: 1.8em;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        color: #000000;
+    }
+
+    .divider {
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        top: 20%;
+        bottom: 80%;
+        border: 3px solid #d7d7d7;
+    }
+
+    .img {
+        position: absolute;
+        background: url('../unit/img/Main_back_img.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        left: 7%;
+        right: 7%;
+        top: 25%;
+        bottom: 25%;
+    }
+
+    .title {
+        position: absolute;
+        left: 14%;
+        right: 14%;
+        top: 75%;
+        bottom: 25%;
+        font-family: 'MaplestoryOTFBold';
+        font-size: 1.5em;
+        color: #000000;
+    }
+
+    .date {
+        position: absolute;
+        left: 14%;
+        right: 14%;
+        top: 85%;
+        bottom: 10%;
+        font-family: 'MaplestoryOTFLight';
+        font-size: 1em;
+        color: #000000;
+    }
+}
+.notice-section {
+    /* Rectangle 728 */
+    position: relative;
+    width: 460px;
+    height: 160px;
+    float: right;
+    margin-top: 60px;
+    margin-right: 24px;
+    background: linear-gradient(180deg, #5d7acb 0%, #5d7acb 25%, rgba(93, 122, 203, 0) 18.95%), #ffffff;
+    border-radius: 20px;
+
+    .divider {
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        top: 25%;
+        bottom: 75%;
+        border: 3px solid #d7d7d7;
+    }
+    .info {
+        position: absolute;
+        left: 4.52%;
+        right: 59.85%;
+        top: 3.75%;
+        bottom: 86.6%;
+        font-family: 'MaplestoryOTFBold';
+        font-size: 1.5em;
+        color: #ffffff;
+    }
+    .contents-li {
+        position: absolute;
+        left: 4%;
+        right: 4%;
+        top: 35%;
+        list-style: none;
+        line-height: 2em;
+        font-family: 'MaplestoryOTFLight';
+        font-size: 15px;
+        color: #000000;
+    }
+}
+
+.maintenance-section {
+    /* Rectangle 728 */
+    position: relative;
+    width: 460px;
+    height: 160px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 24px;
+    background: linear-gradient(180deg, #51a6b1 0%, #51a6b1 25%, rgba(93, 122, 203, 0) 18.95%), #ffffff;
+    border-radius: 20px;
+
+    .divider {
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        top: 25%;
+        bottom: 75%;
+        border: 3px solid #d7d7d7;
+    }
+    .info {
+        position: absolute;
+        left: 4.52%;
+        right: 59.85%;
+        top: 3.75%;
+        bottom: 86.6%;
+        font-family: 'MaplestoryOTFBold';
+        font-size: 1.5em;
+        color: #ffffff;
+    }
+    .contents-li {
+        position: absolute;
+        left: 4%;
+        right: 4%;
+        top: 35%;
+        list-style: none;
+        line-height: 2em;
+        font-family: 'MaplestoryOTFLight';
+        font-size: 15px;
+        color: #000000;
+    }
+}
+
+@font-face {
+    font-family: 'MaplestoryOTFLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MaplestoryOTFBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* 호두맛먹태깡 */
+
+/* Union
+
+position: absolute;
+width: 1920px;
+height: 854px;
+left: 0px;
+top: 346px;
+
+background: #FFFFFF;
+
+
+ Rectangle 1 
+
+position: absolute;
+width: 1920px;
+height: 774.85px;
+left: 0px;
+top: 425.15px;
+
+background: #FFFFFF;
+
+
+Rectangle 2 
+
+position: absolute;
+width: 1100px;
+height: 849.21px;
+left: 410px;
+top: 346px;
+
+background: #FFFFFF;
+border-radius: 50px 50px 0px 0px; */
