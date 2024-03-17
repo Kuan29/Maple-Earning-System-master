@@ -5,7 +5,8 @@ charName = 캐릭터 이름
 ocid = 캐릭터 식별자 (ocid)
 date = 검색 할 날짜
 character_skill_grade = 검색 할 스킬 차수
-↳ 0~6: 0~6차 스킬, 제로 공용스킬은 0차 알파/베타 스킬은 4차, hyperpassive: 하이퍼 패시브 스킬, hyperactive: 하이퍼 액티브 스킬
+<br>↳ 0 ~ 6 : 0 ~ 6차 스킬, 제로 공용스킬은 0차 알파/베타 스킬은 4차, 
+<br>hyperpassive: 하이퍼 패시브 스킬, hyperactive: 하이퍼 액티브 스킬
 
 - 캐릭터 식별자(ocid)조회
     <br>getUserOcid(charName)
