@@ -7,12 +7,12 @@ character_skill_grade = 검색 할 스킬 차수
 ↳ 0~6: 0~6차 스킬, 제로 공용스킬은 0차 알파/베타 스킬은 4차, hyperpassive: 하이퍼 패시브 스킬, hyperactive: 하이퍼 액티브 스킬
 
 - 캐릭터 식별자(ocid)조회
-    --getUserOcid(charName)
+    <br>getUserOcid(charName)
 - 기본 정보 조회
-    getCharBasic(ocid,date)
+    <br>getCharBasic(ocid,date)
 
 - 인기도 정보 조회
-    getCharPopul(ocid,date)
+    <br>getCharPopul(ocid,date)
     
 - 종합 능력치 정보 조회
     getCharStat(ocid,date)
