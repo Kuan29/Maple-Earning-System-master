@@ -1,4 +1,4 @@
-﻿MapleApi.py 정리
+###﻿MapleApi.py 정리
 
 charName = 캐릭터 이름
 ocid = 캐릭터 식별자 (ocid)
@@ -15,52 +15,52 @@ character_skill_grade = 검색 할 스킬 차수
     <br>getCharPopul(ocid,date)
     
 - 종합 능력치 정보 조회
-    getCharStat(ocid,date)
+    <br>getCharStat(ocid,date)
 
 - 하이퍼 스탯 정보 조회
-    getCharHyperst(ocid,date)
+    <br>getCharHyperst(ocid,date)
 
 - 성향 정보 조회
-    getCharPropens(ocid,date)
+    <br>getCharPropens(ocid,date)
 
 - 어빌리티 정보 조회
-    getCharAbil(ocid,date)
+    <br>getCharAbil(ocid,date)
 
 - 장착 장비 정보 조회 (캐쉬 장비 제외)
-    getCharItem(ocid,date)
+    <br>getCharItem(ocid,date)
 
 - 장착 캐쉬 정보 조회
-    getCharCash(ocid,date)
+    <br>getCharCash(ocid,date)
 
 - 장착 심볼 정보 조회
-    getCharSymbol(ocid,date)
+    <br>getCharSymbol(ocid,date)
   
 - 장착 세트 효과 정보 조회
-    getCharSeteff(ocid,date)
+    <br>getCharSeteff(ocid,date)
 
 - 장착 헤어, 성형, 피부 정보 조회
-    getCharBeauty(ocid,date)
+    <br>getCharBeauty(ocid,date)
 
 - 장착 안드로이드 정보 조회
-    getCharAndroid(ocid,date)
+    <br>getCharAndroid(ocid,date)
 
 - 장착 펫 정보 조회
-    getCharPet(ocid,date)
+    <br>getCharPet(ocid,date)
 
 - 스킬 정보 조회
-    getCharSkill(ocid,date,character_skill_grade)
+    <br>getCharSkill(ocid,date,character_skill_grade)
 
 - 장착 링크 스킬 정보 조회
-    getCharLink(ocid,date)
+    <br>getCharLink(ocid,date)
 
 - V매트릭스 정보 조회
-    getCharVmatr(ocid,date)
+    <br>getCharVmatr(ocid,date)
 
 - HEXA 코어 정보 조회
-    getCharHexacore(ocid,date)
+    <br>getCharHexacore(ocid,date)
 
 - HEXA 매트릭스 설정, HEXA 스탯 정보 조회
-    getCharHexamatr(ocid,date)
+    <br>getCharHexamatr(ocid,date)
 
 - 무릉도장 최고 기록 정보 조회
-    getCharDojang(ocid,date)
+    <br>getCharDojang(ocid,date)
